@@ -1,0 +1,96 @@
+
+
+:root{
+    --main-color: #0072d3;
+        --second-color: #125893;
+        --bg-pr: #fff;
+        --bg-sc: #fafaff;
+        --bg-th: #f2f2fc;
+        --bg-black-50: #e8dfec;
+        --text-color: #333;
+        --p-color: #666;
+        --boxshadow-color: #ddd;
+        --main-transition: .3s;
+        --main-border-radius: 10px;
+
+}
+.settings-box{
+    position: fixed;
+    transition: all .3s ease-in-out;
+    left: -300px;
+    top: 100px;
+    background-color: var(--bg-pr);
+    z-index: 1000;
+
+    min-height: 100vh;
+
+    box-shadow: -5px 5px 10px #ddd;
+    border-right: 2px solid var(--main-color);
+    transition: all .3s ease-in-out;
+    width: 300px;
+  
+}
+.theme{
+        border-top: 1px solid #ddd;
+        margin: 20px; 
+        text-align: center;
+        
+    }
+.toggle{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.settings-box .toggle-settings{
+    position: absolute;
+    right: -30px;
+    top: 100px;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.settings-box .toggle-settings i.fa-cog{
+    padding: 12px 0;
+    font-size: 1.2rem;
+    width: 30px;
+    color: #fff
+
+}
+.settings-box.open{
+    left: 0;
+}
+.lang{
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+}
+.lang p{
+
+
+   text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
+.lang .lang-btn{
+    display: flex;
+justify-content: center;
+}
+.lang .lang-btn button{
+    margin-left: 5px;
+    border-radius: 10px;
+    background: none;
+    font-weight: bold;
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+}
+
+
+
+

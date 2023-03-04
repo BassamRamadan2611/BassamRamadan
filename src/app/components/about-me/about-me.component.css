@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+  
+}
+body, html {
+    font-family: Josefin Sans,sans-serif;}
+    :root{
+        --main-color: #0072d3;
+            --second-color: #125893;
+            --bg-pr: #fff;
+            --bg-sc: #fafaff;
+            --bg-th: #f2f2fc;
+            --bg-black-50: #e8dfec;
+            --text-color: #333;
+            --p-color: #666;
+            --boxshadow-color: #ddd;
+            --main-transition: .3s;
+            --main-border-radius: 10px;
+        }
+.about{
+    margin-top: 40px;
+}
+
+.about .main-title {
+    text-align: center;
+ 
+   position: relative;
+    margin-bottom: 55px;
+    
+
+}
+
+.about .main-title h1{
+    color: var(--text-color);
+  font-weight: bold;
+    cursor: pointer;
+}
+.about .main-title:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+ 
+    height: 4px;
+    width: 50px;
+
+    background-color: var(--main-color);
+    transition:  all.6s  linear;
+}
+.about .main-title:hover:after{
+    width: 100px;
+}
+
+
+.about .info h3{
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .info p{
+    font-size: 16px;
+    line-height: 2.6;
+     font-weight: 600;
+    color: var(--p-color);
+    text-transform: capitalize;
+}
+
+.about .Image{
+    width: 300px;
+  
+}
+.about .Image img{
+    width: 100%;
+    border-radius: 25px;
+}
+.education .main-title{
+    font-weight: bold;
+    font-family: Nunito Sans,Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color: var(--text-color);
+}
+.head-img{
+    width: 300px;
+}
+.data p{color: var(--text-color);}
+
+.t-color{
+    color: var(--text-color);
+}
+.p-color{
+    color: var(--p-color);
+}

@@ -1,0 +1,66 @@
+{
+    "navbar":{
+        "home":"home",
+        "about":" about",
+        "skills" :"skills",
+        "services":"services",
+        "portfolio":"porfolio",
+        "contact":"contact",
+        "logo":" Bassam Ramdan"
+    },
+    "header":{
+        "hello":"hi",
+        "name" :"  I'am Bassam Ramadan ",
+        "job":" I'm Web Developer (Front-End ) & Web Designer ",
+        "btn1":" contact me",
+        "btn2":"  Download CV"
+    },
+    "about":{
+        "title":" ABOUT ME ",
+        "who" :" Who am I ?",
+        "text":" I'm Bassam Ramadan Shaaban,I Was Graduated From Beni-Suef University, Beni-Suef. I Work As A Web Developer (Front End) . I Build Websites Using The Following Languages: HTML, Css, JavaScript And Frameworks Like Angular, Bootstrap, What Are You Waiting For? , Contact Me For Work , You Can Download My CV From Here , Thanks.",
+        "btn1":" contact me",
+        "btn2":"  Download CV"
+    },
+    "education":{
+        "title":"Beni-Suef University",
+        "text":"Bachelor of Computer Science, Major Information System ",
+        "location":"Beni Suef, Egypt"
+        
+
+    },
+    "skills":{
+        "title":"SKILLS"
+    },
+    "services":{
+        "title":"SERVICES",
+        "devTitle":"Website Development",
+        "devText":"I can program your site using HTML, CSS and JavaScript the way you want and the plugins you want",
+        "resTitle":"Responsive Design",
+        "resText":"I can program your site to Display on Multiple Screens and edit your site , the way you want",
+        "angTitle":"Angular Website ",
+        "angText":"I can program your site using Angular Js the way you want and the plugins you want"
+    
+    },
+    "portfolio":{
+        "title":" PORTFOLIO"
+    },
+    "contact":{
+        "title":" CONTACT ME",
+        "social":" Our Social Links",
+        "text":"Here you will find some information about us such as email, phone number, social networking sites, do not forget to follow us.",
+        "name":" Full Name",
+        "email":" Your Email",
+        "message":"Your Message",
+        "send":"Send"
+    },
+    "all" :{
+        "lang":" Change The Language ",
+        "mode" :" Dark Mode"
+    }
+
+
+
+
+
+    }

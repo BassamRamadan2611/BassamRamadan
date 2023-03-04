@@ -1,0 +1,89 @@
+:root {
+    --main-color: #0072d3;
+    --second-color: #125893;
+    --bg-pr: #fff;
+    --bg-sc: #fafaff;
+    --bg-th: #f2f2fc;
+    --bg-black-50: #e8dfec;
+    --text-color: #333;
+    --p-color: #666;
+    --boxshadow-color: #ddd;
+    --main-transition: .3s;
+    --main-border-radius: 10px;
+}
+
+
+
+.skills{
+    background-color: var(--bg-th);
+    margin-top: 55px;
+  
+
+}
+.skills-container{
+    justify-content: center;
+}
+
+.skills .main-title {
+    text-align: center;
+ 
+   position: relative;
+    margin-bottom: 55px;
+    
+
+}
+
+.skills .main-title h1{
+    color: var(--text-color);
+  font-weight: bold;
+    cursor: pointer;
+}
+.skills .main-title:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+ 
+    height: 4px;
+    width: 30px;
+
+    background-color: var(--main-color);
+    transition:  all.6s  linear;
+}
+.skills .main-title:hover:after{
+    width: 120px;
+}
+.skill{
+    background-color: var(--bg-pr);
+
+   display: flex;
+   align-items: center;
+
+   flex-direction: column;
+   margin-bottom: 20px;
+   gap: 10px;
+   border-radius: 10px;
+   margin-right: 20px;
+  transition: all .5s ;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+
+}
+.skill:hover{
+  transform: scale(1.1);
+}
+.skill h5{
+    font-size: 20px;
+   font-weight: 600;
+    color: var(--p-color);
+    padding-top: 10px;
+   
+}
+.skill img{
+
+ width: 50px;
+ height: 50px;
+
+}

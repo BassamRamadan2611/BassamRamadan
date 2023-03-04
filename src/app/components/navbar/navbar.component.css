@@ -1,0 +1,88 @@
+
+:root {
+    --main-color: #0072d3;
+    --second-color: #125893;
+    --bg-pr: #fff;
+    --bg-sc: #fafaff;
+    --bg-th: #f2f2fc;
+    --bg-black-50: #e8dfec;
+    --text-color: #333;
+    --p-color: #666;
+    --boxshadow-color: #ddd;
+    --main-transition: .3s;
+    --main-border-radius: 10px;
+}
+.navbar-toggler{
+ border: 2px solid var(--p-color);
+}
+.navbar-toggler i{
+    color: var(--text-color);
+}
+
+body{
+    font-family: Josefin Sans,sans-serif;
+}
+
+.nav-item a{
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 3px;
+    overflow: hidden;
+    
+    position: relative;
+    text-transform: capitalize;
+    transition: .3s;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.nav-item a:hover{
+    color:var(--main-color);
+}
+nav .logo a{
+    color: var(--text-color);
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: capitalize;
+}
+.logo a:before {
+    content: "";
+    height: 20px;
+    position: absolute;
+    transition: .3s;
+    width: 20px;
+}
+.logo a:before {
+    border-bottom: 3px solid var(--main-color);
+    border-left: 3px solid var(--main-color);
+    bottom: 0;
+    left: 0;
+}
+nav .logo a:hover:before{
+    width: 100%;
+
+}
+.logo a:after {
+    content: "";
+    height: 20px;
+    position: absolute;
+    transition: .3s;
+    width: 20px;
+}
+.logo a:after {
+    border-top: 3px solid var(--main-color);
+    border-right: 3px solid var(--main-color);
+    top: 0;
+    right: 0;
+}
+nav .logo a:hover:after{
+    width: 100%;
+
+}
+
+
+
+
