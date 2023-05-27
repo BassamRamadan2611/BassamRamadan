@@ -16,7 +16,5 @@ export class HeaderComponent  implements OnInit{
 
     }
 
-    cv(){
-      window.alert("CV is under Updating..!")
-    }
+   
 }

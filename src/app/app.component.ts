@@ -43,7 +43,6 @@ changeLang(lang:string){
   if (localStorage.getItem("currentLang") == 'ar'){
     window.document.body.style.direction="rtl"
 
-    
           }
           else {
             window.document.body.style.direction="ltr"

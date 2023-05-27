@@ -12,14 +12,14 @@
         "hello":"hi",
         "name" :"  I'am Bassam Ramadan ",
         "job":" I'm Web Developer (Front-End ) & Web Designer ",
-        "btn1":" contact me",
+        "btn1":" Contact Me",
         "btn2":"  Download CV"
     },
     "about":{
         "title":" ABOUT ME ",
         "who" :" Who am I ?",
-        "text":" I'm Bassam Ramadan Shaaban,I Was Graduated From Beni-Suef University, Beni-Suef. I Work As A Web Developer (Front End) . I Build Websites Using The Following Languages: HTML, Css, JavaScript And Frameworks Like Angular, Bootstrap, What Are You Waiting For? , Contact Me For Work , You Can Download My CV From Here , Thanks.",
-        "btn1":" contact me",
+        "text":" I'm Bassam Ramadan Shaaban,I Was graduated From Beni-Suef University, Beni-Suef. I work As A Web Developer (Front End) . I build Websites Using The Following Languages: HTML, Css, JavaScript And Frameworks Like Angular, Bootstrap, What Are You Waiting For? , Contact Me For Work . You Can Download My CV From Here , Thanks.",
+        "btn1":" Contact Me",
         "btn2":"  Download CV"
     },
     "education":{

@@ -64,8 +64,10 @@ body, html {
     line-height: 2.6;
      font-weight: 600;
     color: var(--p-color);
-    text-transform: capitalize;
+   
 }
+
+
 
 .about .Image{
     width: 300px;
