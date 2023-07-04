@@ -4,7 +4,7 @@
         "about":" about",
         "skills" :"skills",
         "services":"services",
-        "portfolio":"porfolio",
+        "portfolio":"Projects",
         "contact":"contact",
         "logo":" Bassam Ramdan"
     },
@@ -43,7 +43,7 @@
     
     },
     "portfolio":{
-        "title":" PORTFOLIO"
+        "title":" Projects"
     },
     "contact":{
         "title":" CONTACT ME",

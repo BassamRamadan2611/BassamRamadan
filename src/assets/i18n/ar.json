@@ -4,7 +4,7 @@
         "about":"من نحن",
         "skills" :"المهارات",
         "services":"الخدمات",
-        "portfolio":"معرض اعمالي",
+        "portfolio":"مشاريعي ",
         "contact":"تواصل معي",
         "logo":"بسام رمضان"
     },
@@ -45,7 +45,7 @@
     
     },
     "portfolio":{
-        "title":"معرض اعمالي"
+        "title":" مشاريعي"
     },
     "contact":{
         "title":"تواصل معي",

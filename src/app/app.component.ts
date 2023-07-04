@@ -6,7 +6,6 @@ import { GlobalServiceService } from 'src/app/services/global-service.service';
 
 
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
