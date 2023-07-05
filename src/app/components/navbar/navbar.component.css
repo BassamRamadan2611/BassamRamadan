@@ -12,9 +12,8 @@
     --main-transition: .3s;
     --main-border-radius: 10px;
 }
-.navbar-toggler{
- border: 2px solid var(--p-color);
-}
+
+
 .navbar-toggler i{
     color: var(--text-color);
 }
@@ -22,14 +21,22 @@
 body{
     font-family: Josefin Sans,sans-serif;
 }
+.navbar-toggler{
+    background-color: #ddd;
 
+}
+.navbar-toggler-icon{
+  background-color: #ddd;
+  color: #fff;
+
+}
 .nav-item a{
     color: var(--text-color);
     cursor: pointer;
     font-size: 20px;
     margin-right: 3px;
     overflow: hidden;
-    
+  
     position: relative;
     text-transform: capitalize;
     transition: .3s;

@@ -71,11 +71,12 @@ body, html {
 
 .about .Image{
     width: 300px;
-  
+    border: 6px solid #0072d3;
+ border-radius: 15px;
 }
 .about .Image img{
     width: 100%;
-    border-radius: 25px;
+
 }
 .education .main-title{
     font-weight: bold;

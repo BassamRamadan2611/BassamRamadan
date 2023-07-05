@@ -63,11 +63,7 @@ flex: 1;
   .img{
     
     width: 350px;
-  
     position: relative;
     transition: .3s;
-    border: 6px solid var(--main-color);
-    border-radius: 4px;
-    margin-left: 50px;
+
   }
- 
