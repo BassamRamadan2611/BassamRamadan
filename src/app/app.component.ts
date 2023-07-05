@@ -2,7 +2,8 @@
 import { Component, OnInit, Inject, Renderer2 } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { GlobalServiceService } from 'src/app/services/global-service.service';
-
+import  * as Aos from "aos";
+;
 
 
 
@@ -35,6 +36,7 @@ export class AppComponent implements OnInit{
 
 ngOnInit():void{ 
   this.initializeTheme();
+  Aos.init();
 }
 
 changeLang(lang:string){

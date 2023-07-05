@@ -23,6 +23,7 @@ body{
 }
 .header-container{
   justify-content: center;
+  
 }
 
  .home{
@@ -62,13 +63,11 @@ flex: 1;
   .img{
     
     width: 350px;
-    padding: 25px;
+  
     position: relative;
     transition: .3s;
-  }
-  .img img{
-    width:400px;
- 
-    border-radius: 50%;
+    border: 6px solid var(--main-color);
+    border-radius: 4px;
+    margin-left: 50px;
   }
  
