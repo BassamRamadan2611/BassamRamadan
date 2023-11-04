@@ -19,6 +19,7 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +41,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     ReactiveFormsModule,
+    RouterModule ,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

@@ -1,6 +1,6 @@
 
 :root {
-    --main-color: #0072d3;
+    --main-color: #1877f2;
     --second-color: #125893;
     --bg-pr: #fff;
     --bg-sc: #fafaff;
@@ -21,6 +21,13 @@
 body{
     font-family: Josefin Sans,sans-serif;
 }
+nav{
+  
+    background-color: #FFF;
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom: 1px solid #0072d3;
+}
 .navbar-toggler{
     background-color: #ddd;
 
@@ -30,6 +37,10 @@ body{
   color: #fff;
 
 }
+.nav-item {
+    padding-right: 15px;
+}
+
 .nav-item a{
     color: var(--text-color);
     cursor: pointer;
@@ -89,7 +100,10 @@ nav .logo a:hover:after{
     width: 100%;
 
 }
-
-
-
-
+.nav-item .contact{
+    background-color: #1877f2;
+    color: #ffffff;
+    border-radius: 70px;
+    width: 150px;
+    text-align: center;
+}

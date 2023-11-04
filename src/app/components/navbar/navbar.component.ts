@@ -7,7 +7,8 @@ import { GlobalServiceService } from 'src/app/services/global-service.service';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  
+  showControl:boolean = false;
+
 constructor(private services:GlobalServiceService){}
 
   ngOnInit(): void {
@@ -16,7 +17,9 @@ constructor(private services:GlobalServiceService){}
   changeLang(){
     this.services.changeLanguage('en');
   }
-
+  showControlFunction() {
+    this.showControl = !this.showControl;
+  }
 }
 
 

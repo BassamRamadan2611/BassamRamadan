@@ -15,7 +15,7 @@
 
 
 .skills{
-    background-color: var(--bg-th);
+    background-color: #e5e7eb;
     margin-top: 55px;
   
 
@@ -45,17 +45,15 @@
     transform: translateX(-50%);
     bottom: -12px;
  
-    height: 4px;
-    width: 30px;
+    height: 3px;
+    width: 120px;
 
     background-color: var(--main-color);
     transition:  all.6s  linear;
 }
-.skills .main-title:hover:after{
-    width: 120px;
-}
+
 .skill{
-    background-color: var(--bg-pr);
+    background-color: #ffff;
 
    display: flex;
    align-items: center;
@@ -65,25 +63,50 @@
    gap: 10px;
    border-radius: 10px;
    margin-right: 20px;
-  transition: all .5s ;
+  transition: all 1s ;
   width: 150px;
   height: 150px;
   cursor: pointer;
+justify-content: center;
+align-items: center;
+
 
 }
 .skill:hover{
-  transform: scale(1.1);
+  transform: scale(1.1) ;
+
 }
 .skill h5{
-    font-size: 20px;
    font-weight: 600;
-    color: var(--p-color);
+    color: #111;
     padding-top: 10px;
    
 }
-.skill img{
+@keyframes rotate {
 
- width: 50px;
- height: 50px;
+    0% {
+      transform: rotate(0);
+    }
+
+    100% {
+      transform: rotate(180deg);
+    }
+    
+  }
+
+.skill img{
+border-radius: 4px;
+ width: 70px;
+ height: 70px;
 
 }
+
+.owl-item {width: 128.906px; margin-right: 10px; background:powderblue; }
+
+
+
+/** to hide dots
+
+.owl-theme .owl-dots .owl-dot{ display:none!important;}
+
+**/

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
+import { window } from 'rxjs';
 import { GlobalServiceService } from 'src/app/services/global-service.service';
 
 @Component({
@@ -20,17 +21,23 @@ ngOnInit() {
   }
 
 
-  onSubmit(FormData:any){
+  onSubmit(FormData:any) {
     console.log(FormData)
-    this.serviceApi.postMessage(FormData).subscribe(response=>{
-      location.href ='https://mailthis.to/confirm'
-      console.log(response)
-    },error=>{
-      console.warn(error.responseText)
-      console.log({ error })
-    })
+    this.serviceApi.PostMessage(FormData)
+    .subscribe(response => {
+    location.href = 'https://mailthis.to/confirm'
+    console.log(response)
+    this.FormData.reset()
+    }, error => {
 
-  }
+     alert(" Sorry !!! ,Form is not valid Now ! , You can contact with me  With another way..")
+    console.warn(error.responseText)
+    console.log({ error })
+    this.FormData.reset()
+
+    })
+    }
+
   }
 
 

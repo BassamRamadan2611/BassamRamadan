@@ -10,7 +10,7 @@ export class GlobalServiceService {
 
   currentLang!:string
   email:string='bassamramadan964@gmail.com'
-  private api="https://mailthis.to/"+ this.email
+  private api="https://mailthis.to/bassamramadan964@gmail.com"
   constructor(private translate: TranslateService ,  private http:HttpClient) { 
     translate.setDefaultLang('en')
     this.currentLang=localStorage.getItem("currentLang") || 'en';
@@ -22,20 +22,19 @@ export class GlobalServiceService {
   
 localStorage.setItem("currentLang",language)
   }
-  postMessage(input:any){
-    return this.http.post(this.api,input,{responseType:'text'}).pipe(
+  
+  PostMessage(input: any) {
+    return this.http.post(this.api, input, { responseType: 'text' }).pipe(
       map(
-      (response:any)=>{
-      if(response){
-       return response
-     }
-      },(error:any)=>{
-        return error;
-      }
+        (response:any) => {
+          if (response) {
+            return response;
+          }
+        },
+        (error: any) => {
+          return error;
+        }
       )
-    )
-    
-
-
+    );
   }
 }

@@ -1,16 +1,16 @@
 {
     "navbar":{
-        "home":"home",
-        "about":" about",
-        "skills" :"skills",
-        "services":"services",
+        "home":"Home",
+        "about":" About",
+        "skills" :"Skills",
+        "services":"Services",
         "portfolio":"Projects",
-        "contact":"contact",
+        "contact":"Contact",
         "logo":" Bassam Ramdan"
     },
     "header":{
         "hello":"hi",
-        "name" :"  I'am Bassam Ramadan ",
+        "name" :" Hello I'am Bassam Ramadan ",
         "job":" I'm Web Developer (Front-End ) & Web Designer ",
         "btn1":" Contact Me",
         "btn2":"  Download CV"
@@ -30,25 +30,25 @@
 
     },
     "skills":{
-        "title":"SKILLS"
+        "title":"Skills"
     },
     "services":{
-        "title":"SERVICES",
-        "devTitle":"Website Development",
-        "devText":"I can program your site using HTML, CSS and JavaScript the way you want and the plugins you want",
-        "resTitle":"Responsive Design",
-        "resText":"I can program your site to Display on Multiple Screens and edit your site , the way you want",
-        "angTitle":"Angular Website ",
-        "angText":"I can program your site using Angular Js the way you want and the plugins you want"
+        "title":"Services",
+        "devTitle":"Responsive Development",
+        "devText":"Get your desired web page coded into full responsive HTML & CSS page ready to deploy",
+        "resTitle":"Web App Development",
+        "resText":"Create your complex web app for your business using Angular framework",
+        "angTitle":"Editing & Re-design ",
+        "angText":"Do you have some edits and retouchs or even a complete re-design I am here to do it"
     
     },
     "portfolio":{
         "title":" Projects"
     },
     "contact":{
-        "title":" CONTACT ME",
-        "social":" Our Social Links",
-        "text":"Here you will find some information about us such as email, phone number, social networking sites, do not forget to follow us.",
+        "title":" Contact Me",
+        "social":"Get In Touch",
+        "text":"If you have any questions or want to work with me, please fill the form and I will get back to you as soon as possible. I look forward to hearing from you",
         "name":" Full Name",
         "email":" Your Email",
         "message":"Your Message",

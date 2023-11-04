@@ -1,126 +1,154 @@
 
 :root {
-    --main-color: #0072d3;
+    --first-color:#1877f2;
+    --heading-color:#000000;
+    --text-color :#555d6c;
+    --heading-dark-theme-color:#ffffff;
+    --text-dark-theme-color:#c5c9cf;
+
     --second-color: #125893;
     --bg-pr: #fff;
     --bg-sc: #fafaff;
-    --bg-th: #f2f2fc;
+    --bg-th: #ffffff;
     --bg-black-50: #e8dfec;
     --text-color: #333;
     --p-color: #666;
     --boxshadow-color: #ddd;
     --main-transition: .3s;
     --main-border-radius: 10px;
+    --tird-color:#f85c13;
 }
 
 
 
 
 .portfolio{
-    background-color: var(--bg-th);
-    margin-top: 55px;
+    background-color:#e5e7eb;
 }
 
 .portfolio .main-title {
     text-align: center;
  
    position: relative;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     
 
 }
 
 .portfolio .main-title h1{
-    color: var(--text-color);
+    color: var(--heading-color);
   font-weight: bold;
     cursor: pointer;
 }
-.portfolio .main-title:after{
+.portfolio .main-title h1:after{
     content: '';
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: -12px;
  
-    height: 4px;
-    width: 50px;
+    height: 3px;
+    width: 200px;
 
-    background-color: var(--main-color);
+    background-color: #1877f2;
     transition:  all.6s  linear;
 }
-.portfolio .main-title:hover:after{
-    width: 200px;
+
+
+.links {
+    margin-top: 40px;
+    justify-content: center;
 }
-.project{
-    flex-basis: 20%;
-    overflow: hidden;
-    position: relative;
-    transition: all .3s;
-    height: 350px;
-    border-radius: 10px;
-    margin-top: 20px;
-    
-}
-.project a {
-    background: linear-gradient(transparent,var(--main-color));
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: .1s;
-    width: 0;
-    z-index: 100
-}
-.project:hover a {
-    width: 100%
-}
-.project .shadow {
-    box-shadow: inset 0 0 30px -8px #242323;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    z-index: 99;
-}
-.project .type {
-    background-color: var(--main-color);
-    color: var(--bg-pr);
+.links button {
+    color: var(--text-color);
+    background-color: #ffff;
+    font-weight: 600;
     padding: 6px;
-    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    transition: all 1ss ;
+    cursor: pointer;
     text-align: center;
-    top: -20%;
-    transition: .1s;
-    width: 100%;
-    z-index: 100
+    border: none;
 }
+.links  button.active{
+    background-color: #1877f2;
+    color: #ffff;
 
-.project:hover .type {
-    top: 0
 }
+.links  button:hover{
+  background-color: #1877f2;
+  color: #ffff;
 
-.project img {
-    transition: all .3s;
+}
+.wrapper {
+    display: table;
+    height: 100%;
     width: 100%;
+  }
   
-}
 
-.project:hover img {
-    -webkit-transform: scale(1.2) rotate(10deg);
-    transform: scale(1.2) rotate(10deg)
-}
 
- .project svg {
-    color: var(--bg-pr);
-    font-size: 45px;
-    position: absolute;
-    right: -50%;
-    top: 60%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    transition:  all .3s;
-    z-index: 1000
-}
 
-.project:hover svg {
-    left: 50%
-}
+ 
+  .card {
+    display: block; 
+      margin-bottom: 20px;
+      line-height: 1.42857143;
+      background-color: #ffffff;
+      border-radius: 8px;
+      transition: all .25s; 
+      max-height: 400px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .img-card {
+    width: 100%;
+    height:200px;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    display:block;
+    overflow: hidden;
+  }
+  .img-card img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover; 
+    overflow-y: scroll;
+    transition: all .25s ease;
+  } 
+  .card-content {
+    padding:10px;
+   text-align: center;
+ }
+ .card-content p{
+    text-align: left;
+    max-height: 60px;
+ }
+  .card-title {
+    margin-top:0px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: var(--text-color);
+  }
+
+  .card-read-more {
+    border-top: 1px solid #D4D4D4;
+  }
+
+  .card-read-more i{
+    color: var(--first-color);
+    transition: all .5s;
+    cursor: pointer;
+    padding: 8px;
+    width: 100px;
+    font-size: 20px;
+
+  
+  }
+  .card-read-more i:hover{
+    color: #ffffff;
+    background-color: #1877f2;
+  }

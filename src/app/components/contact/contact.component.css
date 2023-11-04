@@ -1,20 +1,25 @@
 :root {
-    --main-color: #0072d3;
+    --first-color:#1877f2;
+    --heading-color:#000000;
+    --text-color :#555d6c;
+    --heading-dark-theme-color:#ffffff;
+    --text-dark-theme-color:#c5c9cf;
+
     --second-color: #125893;
     --bg-pr: #fff;
     --bg-sc: #fafaff;
-    --bg-th: #f2f2fc;
+    --bg-th: #ffffff;
     --bg-black-50: #e8dfec;
     --text-color: #333;
     --p-color: #666;
     --boxshadow-color: #ddd;
     --main-transition: .3s;
     --main-border-radius: 10px;
+    --tird-color:#f85c13;
 }
 
 
 .contact{
-    background-color: var(--bg-th);
     margin-top: 55px;
     font-family: "Josefin Sans", sans-serif;
 }
@@ -23,13 +28,13 @@
     text-align: center;
  
    position: relative;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     
 
 }
 
 .contact .main-title h1{
-    color: var(--text-color);
+    color: var(--heading-color);
   font-weight: bold;
     cursor: pointer;
 }
@@ -41,21 +46,41 @@
     bottom: -12px;
  
     height: 4px;
-    width: 50px;
+    width: 200px;
 
     background-color: var(--main-color);
     transition:  all.6s  linear;
 }
-.contact .main-title:hover:after{
-    width: 200px;
-}
+
 .shadow{
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-        width: 95%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;            width: 95%;
         border-radius: 25px;
-    margin: auto;
+        margin: auto;
+  
     
 }
+.all{
+padding: 40px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.home__social{
+    display: flex;
+    flex: 1;
+  
+  }
+
+  .home__social-icon  {
+
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 5px;
+    margin-left: 10px;
+ 
+  }
 .social-content{
     padding: 20px 0 20px 10px;
 }
@@ -90,7 +115,10 @@
     margin-top: 20px;
     margin-right: 10px;
     font-size: 1.3rem;
-    color: #0072d3;
+    color: #1877f2;
+}
+.bg{
+    background-color: #1877f2;
 }
 .contact-icons{
     display: flex;
